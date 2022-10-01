@@ -1,2 +1,2 @@
 # Proyecto_Coderhouse
-Proyect from web developer coderhouse´s course
+Project from web developer coderhouse´s course
