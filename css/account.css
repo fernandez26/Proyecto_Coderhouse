@@ -77,16 +77,20 @@ nav{
     filter: drop-shadow(10px 5px 10px grey);
 }
 
-#logo_portfolio{
-    text-align: center;
-    border-radius: 100%;
 
-}
 /* ----- */
 /* MAIN */
 /* --- */
 
-
+#logoingreso {
+    
+    width: 250px;
+    filter: drop-shadow(2px 2px 1px grey);
+    padding: 100px;
+    border-radius: 100%;
+    
+    
+}
 
 
 

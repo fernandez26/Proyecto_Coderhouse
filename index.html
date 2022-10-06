@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Fecsa Fondo</title>
-    <link rel="icon" href="../Proyecto/img/LogoFecsa.jpg">
-    <link rel="stylesheet" href="../Proyecto/css/index.css">
+    <link rel="icon" href="img/LogoFecsa.jpg">
+    <link rel="stylesheet" href="css/index.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,34 +14,32 @@
 
 
     <header>
-        <img src="img/RedesIcon.png" alt="Redes sociales" id="redes" width="200px">
-        <a href="html/index.html" target="_blank"><img id="logo_portfolio" src="img/LogoFecsa.jpg" alt="Enlace a inicio"width="100px"></a>
-        <a href="html/account.html" id="login"><img src="/Proyecto/img/UserIcon.png" alt="Ingreso estado de cuenta" width="50px" height="25px">Estado de cuenta</a>
+        <a href="#"><img src="img/RedesIcon.png" alt="Redes sociales" id="redes" width="200px"></a>
+        <a href="index.html" target="_blank" id="index_link"><img id="logo_portfolio" src="img/LogoFecsa.jpg" alt="Enlace a inicio"width="100px"></a>
+        <a href="html/account.html" id="login"><img src="img/UserIcon.png" alt="Ingreso estado de cuenta" width="50px" height="25px">Estado de cuenta</a>
     
         
     </header>
     <nav class="flex-container_nav">
         <a href="html/portfolio.html">Portafolio</a>
         <a href="html/about.html">Sobre nosotros</a>
-        <!-- <a href="html/index.html" target="_blank"><img id="logo_portfolio" src="img/LogoFecsa.jpg" alt="Enlace a inicio"width="100px"></a> -->
         <a href="html/contact.html">Contacto</a>
-        <!-- <a href="html/account.html">Estado de cuenta</a> -->
     </nav>
 
     <main>
+        <section id="sectionlogo">
+            <div id="logo">
+                <img id="logo_fecsa" src="img/LogoFecsa.jpg" alt="Logo Fondo Fecsa" width="370px" height="355px"/>
+            </div>   
 
-        <div id="logo">
-            <img id="logo_fecsa" src="img/LogoFecsa.jpg" alt="Logo Fondo Fecsa" width="370px" height="355px"/>
-        </div>   
-
-        <span>
-            <h1>"Tu bienestar <br> nuestra prioridad"</h1>
-        </span>
-        
+            <span>
+                <h1>"Tu bienestar <br> nuestra prioridad"</h1>
+            </span>
+        </section>
         <section id="gallery"> 
-            <img src="img/familia1.jpg" alt="familia" width="447px" height="352px"/>
-            <img src="img/oficina.jpg" alt="oficina" width="447px" height="352px"/>
-            <img src="img/trabajador.jpg" alt="operativo" width="447px" height="352px"/>
+            <img src="img/familia1.jpg" alt="familia" />
+            <img src="img/oficina.jpg" alt="oficina" />
+            <img src="img/trabajador.jpg" alt="operativo" />
         </section>
 
         <section id="beneficios">
@@ -103,7 +101,7 @@
                     </tr>
                 </tmain>
             </table>    
-            <table id="Interes_crédito"> <!--¿Por que el titulo no queda sobre la tabla?-->
+            <table id="Interes_crédito"> 
                 <th colspan="2">Intereses crédito</th> 
                 <tr>
                     <td>Dolar trm:</td>

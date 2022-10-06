@@ -1,24 +1,39 @@
 *{
     margin: 0px;
     padding: 0px;
+    background-size: contain;
 }
 
 body{
-    background-color: rgb(240, 245, 250);
+    /* background-color: rgb(240, 245, 250); */
+    background-color: #C7BFAA;
+    background: linear-gradient(to bottom, #C7BFAA, white) ;
     font-family: 'Poppins', sans-serif;
     }
 
 header{
     display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(50, 50, 255);
+    justify-content:space-around ;
+    background-color:#01528A;
     padding: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
     border: 10px;
     align-items: center;
+    width:100%;
+    /* position: sticky; */
 }
- 
+#redes{
+    
+    justify-content: right;
+    filter: drop-shadow(2px 2px 2px  grey);
+
+}
+#redes:hover{
+    filter: drop-shadow(2px 2px 2px white);
+}
 nav{
-    background-color: rgb(50, 50, 255);
+    background-color: #01528A;
     text-align: center;
     padding: 2%;
 }
@@ -34,20 +49,19 @@ nav{
 .flex-container_nav a {
     color: whitesmoke;
 }
-
-#redes{
-    padding-right: 270px;
+.flex-container_nav a:hover {
+    color: #0096D3;
 }
+
 #logo{
     text-align: center;
     padding-top: 75px;
     padding-bottom: 50px;
-    }
-#logo_fecsa{
-    display: flexbox;
-    flex: 1 1 auto;
-
     
+    }
+
+#logo_fecsa{
+         
     text-align: center;
     border-radius: 100%;
     filter: drop-shadow(1px 1px 10px rgb(101, 102, 101)); 
@@ -56,42 +70,52 @@ nav{
 #login{
     align-items: center;
     justify-content: right;
-    padding-left: 290px;
+    
     font-size: small;
 }
+#index_link:hover{
+    filter: drop-shadow(10px 5px 10px grey);
+}
+
 #logo_portfolio{
     text-align: center;
     border-radius: 100%;
-    filter: drop-shadow(1px 0px 10px grey);
-    }
+
+}
 h1{
     text-align: center;
     font-size: 60px;
     font-style: italic;
     font-weight: 100;
-    
     padding: 1%;
-   }
+    color: #010135;
+    
+}
 
 #gallery{
+    /* background-color:#F6E1CA ; */
     display: flex;
-    flex-flow: row nowrap;
+    width: 100%;
     flex: 1 1 auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
     }
 
 #gallery img{
     filter: drop-shadow(10px 5px 10px rgb(110, 110, 110));
-    padding: 10px;
+    width: 30%;
+    padding: 1%;
+    justify-content: center;
+
 }
 h2{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    /* background-color: #F6E1CA; */
 }
 #video{
     text-align: center;
     padding: 100px;
+    /* background-color: #F6E1CA; */
 }
 
 a:link{
@@ -107,9 +131,12 @@ ul, li {
     padding-top: 25px;
     padding-left: 50px;
     padding-right: 50px;
+    /* background-color: #F6E1CA; */
 }
+
+
 footer{
-    background-color: #53565A;
+    background-color:#010135;
     padding: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -117,19 +144,20 @@ footer{
 table{
     display: flex;
     flex: 1 1 auto;
-    color: antiquewhite;
+    color: #EEEBC2;
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
+    font-style: italic;
     
 }
 table thead th{
-    text-align: center;
+    text-align: lef;
     width: 30%;
 }
 
 tbody td{
-    text-align: center;
+    text-align: left;
 }
 
 .flex-container{

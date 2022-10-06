@@ -9,6 +9,7 @@ body{
     background-color: #C7BFAA;
     background: linear-gradient(to bottom, #C7BFAA, white) ;
     font-family: 'Poppins', sans-serif;
+    
     }
 
 header{
@@ -86,6 +87,10 @@ nav{
 /* MAIN */
 /* --- */
 
+
+form{
+    height: 1000px;
+}
 
 
 
