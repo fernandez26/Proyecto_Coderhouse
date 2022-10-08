@@ -10,7 +10,12 @@ body{
     background: linear-gradient(to bottom, #C7BFAA, white) ;
     font-family: 'Poppins', sans-serif;
     }
-
+a:visited{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
 header{
     display: flex;
     justify-content:space-around ;
@@ -85,6 +90,16 @@ nav{
 /* ----- */
 /* MAIN */
 /* --- */
+h1{
+    font-style: italic;
+    text-align: center;
+    font-size: 60px;
+    padding: 25px;
+}
+p{
+    padding: 35px;
+    
+}
 
 
 

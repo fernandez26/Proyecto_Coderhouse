@@ -5,7 +5,7 @@
 }
 
 body{
-    /* background-color: rgb(240, 245, 250); */
+    
     background-color: #C7BFAA;
     background: linear-gradient(to bottom, #C7BFAA, white) ;
     font-family: 'Poppins', sans-serif;
@@ -13,7 +13,7 @@ body{
 
 header{
     display: flex;
-    justify-content:space-around ;
+    justify-content:space-between ;
     background-color:#01528A;
     padding: 15px;
     padding-left: 0px;
@@ -21,7 +21,7 @@ header{
     border: 10px;
     align-items: center;
     width:100%;
-    /* position: sticky; */
+    
 }
 #redes{
     
@@ -43,7 +43,7 @@ nav{
     flex-flow: row auto;
     flex: 1 1 auto;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
 }
 .flex-container_nav a {
