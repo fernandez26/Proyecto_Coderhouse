@@ -23,6 +23,13 @@ header{
     width:100%;
     /* position: sticky; */
 }
+header a:visited{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+
 #redes{
     
     justify-content: right;
@@ -86,7 +93,34 @@ nav{
 /* MAIN */
 /* --- */
 
+h1{
+    text-align: center;
+    padding: 40px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 25% 25%;
+    grid-template-areas: "a1 a2 a3 a4 a5"
+                         "b1 b2 b3 b4 b5"   ;
+    justify-items: center;
 
+}
+#hijo1{
+    grid-area: a2;
+    padding: 20px;
+}
+#hijo2{
+    grid-area: b2;
+    
+}
+#hijo3{
+    grid-area: a4;
+    padding: 20px;
+}
+#hijo4{
+    grid-area: b4;
+}
 
 
 
