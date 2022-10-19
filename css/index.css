@@ -7,17 +7,15 @@
 body{
     
     background-color: #C7BFAA;
-    background: linear-gradient(to bottom, #C7BFAA, white) ;
+    background: linear-gradient(to bottom, #C7BFAA, white, #C7BFAA) ;
     font-family: 'Poppins', sans-serif;
     }
 
 header{
     display: flex;
-    justify-content:space-between ;
-    background-color:#01528A;
+    justify-content:space-around ;
+    background-color:#C7BFAA;
     padding: 15px;
-    padding-left: 0px;
-    padding-right: 0px;
     border: 10px;
     align-items: center;
     width:100%;
@@ -34,8 +32,9 @@ header{
 }
 nav{
     background-color: #01528A;
-    text-align: center;
-    padding: 2%;
+    text-align: end;
+    padding: 15px 0px 15px 0px;
+    
 }
 
 .flex-container_nav{
@@ -43,7 +42,7 @@ nav{
     flex-flow: row auto;
     flex: 1 1 auto;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     
 }
 .flex-container_nav a {
@@ -78,17 +77,18 @@ nav{
 }
 
 #logo_portfolio{
-    text-align: center;
+    justify-items: center;
     border-radius: 100%;
 
 }
 h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
     font-style: italic;
     font-weight: 100;
-    padding: 1%;
+    padding: 50px;
     color: #010135;
+
     
 }
 
@@ -110,7 +110,7 @@ h1{
 h2{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* background-color: #F6E1CA; */
+    font-size: 60px;
 }
 #video{
     text-align: center;
@@ -125,13 +125,18 @@ a:link{
 a:visited{
     color: aliceblue;
 }
+#beneficios{
+    padding: 60px;
+    padding-top: 200px;
+}
 ul, li {
+    font-size: 25px;
     text-align: center;
     user-select: contain;
-    padding-top: 25px;
+    padding-top: 40px;
     padding-left: 50px;
     padding-right: 50px;
-    /* background-color: #F6E1CA; */
+    list-style: none;
 }
 
 
