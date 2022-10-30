@@ -13,12 +13,12 @@ body{
 
 header{
     display: flex;
-    justify-content:space-around ;
-    background-color:#C7BFAA;
-    padding: 15px;
+    justify-content:space-evenly ;
+    background-color:#01528A;
+    padding: 15px 0px;
     border: 10px;
     align-items: center;
-    width:100%;
+    width:auto;
     
 }
 #redes{
@@ -32,8 +32,8 @@ header{
 }
 nav{
     background-color: #01528A;
-    text-align: end;
-    padding: 15px 0px 15px 0px;
+    text-align: center;
+    padding: 0px 0px 15px 0px;
     
 }
 
@@ -42,7 +42,7 @@ nav{
     flex-flow: row auto;
     flex: 1 1 auto;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     
 }
 .flex-container_nav a {
@@ -179,3 +179,25 @@ footer img{
 
 }
 
+/*-------------Media Queries---------------------*/
+@media only screen and (max-widht: 900px) {
+    #redes{ display: none;    }
+
+
+
+
+
+    .video{
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        overflow: hidden;
+    }
+    .video iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
